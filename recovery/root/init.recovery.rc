@@ -1,0 +1,13 @@
+# 启动 qseecomd（高通安全服务）
+service qseecomd /sbin/qseecomd
+    class core
+    user root
+    group root
+    oneshot
+
+# 启动 vold（卷管理服务）  
+service vold /sbin/vold
+    class core
+    user root
+    group root
+    oneshot
