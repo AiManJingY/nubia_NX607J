@@ -84,3 +84,7 @@ TW_USE_TOOLBOX := true
 
 # Fstab
 BOARD_KERNEL_CMDLINE += androidboot.fstab=/etc/recovery.fstab
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+TW_CRYPTO_USE_SYSTEM_VOLD := true
+TW_CRYPTO_USE_SYSTEM_VOLD := qseecomd
