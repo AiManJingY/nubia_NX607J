@@ -6,3 +6,4 @@
 #
 
 LOCAL_PATH := device/nubia/NX607J
+
